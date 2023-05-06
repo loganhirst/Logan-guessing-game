@@ -8,12 +8,21 @@
 }
 
 body {
+  background-color: turquoise;
   display: flex;
   width: 100vw;
   min-height: 100vh;
   flex-direction: column;
-  gap: 25px;
+  gap: 15px;
   align-items: center;
+}
+
+.game-size-message {
+  margin-bottom: -10px;
+}
+
+#size {
+  margin-top: -10px;
 }
 
 .display-none {
