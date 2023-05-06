@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Guessing Game</title>
+</head>
+<body>
+
+    <h1>Logan's Guessing Game</h1>
+    
+    <div class="wrapper">
+        <button class="start-game-btn button-64"><span class="text">Start new game</span></button>
+        <label for="size">Choose a game size:</label>
+        <select name="size" id="size">
+            <option value="10">0 - 10</option>
+            <option value="100" selected>0 - 100</option>
+            <option value="1000">0 - 1000</option>
+            
+        </select>
+    </div>
+    
+    
+    
+    <form class="guessing-form display-none">
+        <input type="number" class="guessing-input" placeholder="Type your guess"/>
+        
+        <button class="button-64" type="submit"><span class="text">Try answer</span></button>
+    </form>
+    
+    
+    <h1 class="message-tag"></h3>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
